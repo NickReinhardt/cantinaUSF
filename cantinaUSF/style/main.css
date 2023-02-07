@@ -1,0 +1,38 @@
+:root {
+    margin: 2rem;
+
+    --main-bg-color: #fcfccc;
+    
+    --title-color: #b95121;
+    --title-font: Reinder;
+
+    --subtitulo-color: #ffbf00;
+}
+
+@font-face {
+    font-family: Reinder;
+    src: url(../fonts/Reindeer.otf);
+}
+
+body {
+    background-color: var(--main-bg-color);
+}
+
+
+/* Almoço */
+
+.almoco {
+    font-family: var(--title-font);
+    text-align: center;
+}
+
+.almoco__titulo {
+    font-size: 3rem;
+    color: var(--title-color);
+}
+
+.almoco__subtitulo {
+    font-size: 1.5rem;
+    color: var(--subtitulo-color);
+    margin-top: 10px;
+}
